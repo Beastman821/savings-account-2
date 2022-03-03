@@ -1,0 +1,9 @@
+money = input("How much money is in your savings account? ")
+
+wedding = int(money) * float(0.20)
+down_payment = int(money) * float(0.20)
+emergancy_fund = int(money) * float(0.60)
+
+print(f"your emergancy fund is: ", emergancy_fund)
+print("Your wedding savings is: ", wedding)
+print("Your down payment savings is: ", down_payment)
